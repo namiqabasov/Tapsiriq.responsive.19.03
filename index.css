@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(255, 255, 255);
+    height: 2000px;
+    opacity: 0.9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+}
+.secdiv1{
+    
+}
+.secdiv2{
+    justify-self: flex-end;
+}
+ul li{
+    list-style-type: none;
+}
+
+.duzxet{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.433);
+    height: 100px;
+}
+/* navbar start  */
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.afterdiv{
+    display: none;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    border: 10px solid rgba(255, 136, 0, 0.808) ;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.navbar ul li a:hover{
+    
+    color: rgb(255, 255, 255);
+ }
+/* navbar end  */
+/* mainbox section start */
+.mainbox{
+    position: relative;
+    top: 200px;
+
+    
+    width: 80%;    
+      
+}
+
+.mainbox h2{
+    display: inline;
+    
+}
+/* mainvox section end */
+/* section1 start */
+.ad1{padding: 20px;
+    font-size: 80px;
+    color: black;
+}
+.ad2{padding: 20px;
+    font-size: 80px;
+    color: orangered;
+}
+.firstdiv1{
+    opacity: 0.8;
+    font-size: 24px;
+    font-weight: 600;    
+    padding: 20px;
+    padding-bottom: 50px;
+    font-family: 'Saira Extra Condensed', sans-serif;;
+}
+.firstdiv1 a{
+    color: orangered;
+}
+.firstdiv2{
+    
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 20px;
+    width: 80%;
+ }
+.divi{padding: 20px;
+    padding-top: 30px;
+}
+i{  cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 10px solid black;
+    opacity: 0.8;
+}
+i:hover{
+    background-color: orangered;
+    border: 10px solid orangered;
+}
+
+
+
+/* section1 end */
+
+/* section2 start */
+.ad3{
+    font-weight: 500;
+    letter-spacing: -3px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+h3{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.ad4{
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 5px;
+    font-size: 1.5rem;
+    opacity: 0.6;
+    font-weight: 500;
+}
+.ad5{
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    width: 70%;
+    
+    
+}
+
+.ptag{
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+.ptag1{
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color:orangered;
+    opacity: 0.7;
+    display: inline-block;    
+    
+}
+/* main section2 end  */
+/* main section3 start */
+.section3 ul li i{
+    border: 0;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.section3 ul{
+    list-style-type: none;
+    width: 700px;
+    height: 100px;
+}
+
+.section3 .yeni{
+    display: inline-block;
+  
+}
+.section3 .yeni i{
+    font-size: 100px;
+
+}
+.section3 .icons{
+    padding: 10px 0 200px 0;
+    
+}
+/* main section3 end */
+/* main section5 start */
+.section5{
+    padding-bottom: 200px;
+}
+.section5 i{
+    background-color: wheat;
+    border: 0;
+    color: rgb(255, 179, 0);
+    font-size: 18px;
+    opacity: 0.7;
+    
+}
+/* main section5 end */
+
+
+
+
+
+
+
+
+@media only screen and (max-width:912px){
+    /* navbar: */
+    
+    .first{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding-bottom:200px;
+    }
+    .mainbox{
+        width: 100%;
+    }
+
+    .navbar{
+        background-color: rgb(255, 255, 255);
+        justify-content: start;
+        width: 100%;
+        height: 0;
+        transition: 0.5s;
+    }
+
+    .navbar>ul{
+        display: none;
+    }
+    .navbar ul li{
+        text-align: start;
+        background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 100%;
+        height: 0;
+        transition: 0.5s;
+        
+    }
+    .navbar .afterdiv{
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        display: flex;
+        background-color: orangered;
+        width: 100%;
+        height:60px;
+        align-items: center;
+        
+    }
+    .navbar>.afterdiv>h2{
+        color: white;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+    img{
+        display: none;
+    }
+    .navbar:hover{
+        
+        background-color: orangered;
+        z-index: 1;
+        height: 330px;        
+    }
+    .navbar:hover>ul{
+        display: block;
+    }
+    /* navbar :end */
+    /* mainbox start */
+    .mainbox{
+        z-index: -1;
+    }
+    .box{
+        display: block;
+    }
+    /* mainbox end */
+}
+
+@media only screen and (max-width:768px){
+    /* navbar: */
+    
+    .first{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding-bottom:200px;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .navbar>ul{
+        display: none;
+    }
+    .navbar{
+        
+        background-color: rgb(255, 255, 255);
+        justify-content: start;
+        width: 100%;
+        height: 0;
+        transition: 0.5s;
+        
+    }
+    .navbar .afterdiv{
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        display: flex;
+        background-color: orangered;
+        width: 100%;
+        height:60px;
+        align-items: center;
+        
+    }
+    .navbar>.afterdiv>h2{
+        color: white;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+    img{
+        display: none;
+    }
+    .navbar:hover{
+        
+        background-color: orangered;
+        z-index: 1;
+        height: 330px;        
+    }
+    .navbar:hover>ul{
+        display: block;
+    }
+    /* navbar :end */
+    /* mainbox start */
+    .mainbox{
+        z-index: -1;
+    }
+    .box{
+        display: block;
+    }
+    /* mainbox end */
+}
+
+@media only screen and (max-width:540px) {
+    body{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .section3 .yeni i{
+        font-size: 50px;
+        width: 100%;
+        
+    }
+    .ptag{
+        width: 100%;
+    }
+    .section3 ul{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:414px) {
+    body{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .section3 .yeni i{
+        font-size: 50px;
+        width: 100%;
+        
+    }
+    .section3 ul{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:412px) {
+    body{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .section3 .yeni i{
+        font-size: 50px;
+        width: 100%;
+        
+    }
+    .ptag{
+        width: 100%;
+    }
+    .section3 ul{
+        width: 100%;
+    }
+    .ad4{
+        width: 100%;
+    }
+    .ad5{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    body{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .section3 .yeni i{
+        font-size: 50px;
+        width: 100%;
+        
+    }
+    .section3 ul{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    body{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .section3 .yeni i{
+        font-size: 50px;
+        width: 100%;
+        
+    }
+    .section3 ul{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    body{
+        width:100%;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .section3 .yeni i{
+        font-size: 50px;
+        width: 100%;
+        
+    }
+    .section3 ul{
+        width: 100%;
+    }
+}
