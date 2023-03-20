@@ -263,7 +263,28 @@ h3{
         transition: 0.5s;
         
     }
+    .navbar .afterdiv>button{
+        display: flex;
+        width: 55px;
+        background-color: orangered;
+        border: 0px solid ;
+        color: white;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .navbar .afterdiv>button:hover{
+        border: 1px solid ;
+    }
+    .navbar .afterdiv>button>i{
+        
+        background-color: orangered;
+        border: 0;
+        color: white;
+    }
     .navbar .afterdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         z-index: 0;
         position: absolute;
         top: 0;
