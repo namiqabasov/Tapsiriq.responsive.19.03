@@ -18,9 +18,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 0.4fr;
 }
-.secdiv1{
-    
-}
+
 .secdiv2{
     justify-self: flex-end;
 }
@@ -59,6 +57,7 @@ ul li{
     color: rgba(255, 255, 255, 0.671);
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 img{
     border: 10px solid rgba(255, 136, 0, 0.808) ;
@@ -74,7 +73,7 @@ img{
 /* mainbox section start */
 .mainbox{
     position: relative;
-    top: 200px;
+    top: 0px;
 
     
     width: 80%;    
@@ -87,6 +86,9 @@ img{
 }
 /* mainvox section end */
 /* section1 start */
+.section1{
+    padding-top: 200px;
+}
 .ad1{padding: 20px;
     font-size: 80px;
     color: black;
@@ -270,13 +272,16 @@ h3{
         border: 0px solid ;
         color: white;
         cursor: pointer;
+        border-radius: 10%;
         margin-right: 20px;
     }
     .navbar .afterdiv>button:hover{
-        border: 1px solid ;
+        opacity: 0.8;
+        
+        border: 5px solid ;
     }
     .navbar .afterdiv>button>i{
-        
+        margin-left: 10px;
         background-color: orangered;
         border: 0;
         color: white;
